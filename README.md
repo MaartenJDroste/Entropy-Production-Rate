@@ -1,4 +1,4 @@
-This code recreates the images in "Thermodynamics of unicellular life: Entropy production rate as function of the balanced growth rate" by M. J. Droste, M. Remeijer, R. Planqué, F. J Bruggeman.
+This Mathematica code recreates the images in "Thermodynamics of unicellular life: Entropy production rate as function of the balanced growth rate" by M. J. Droste, M. Remeijer, R. Planqué, F. J Bruggeman.
 
 - Figure 2: Example metabolic network.nb
 - Figures 3, 7: Chemostat models for K. aerogenes and anaerobic yeast.nb
