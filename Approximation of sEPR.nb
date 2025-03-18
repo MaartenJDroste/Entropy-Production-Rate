@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     77422,       1733]
-NotebookOptionsPosition[     75712,       1695]
-NotebookOutlinePosition[     76115,       1711]
-CellTagsIndexPosition[     76072,       1708]
+NotebookDataLength[     79628,       1788]
+NotebookOptionsPosition[     77824,       1749]
+NotebookOutlinePosition[     78223,       1765]
+CellTagsIndexPosition[     78180,       1762]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,6 +30,64 @@ overflowing yeast\
   3.9302174763531027`*^9, 
   3.930217491982832*^9}},ExpressionUUID->"59e581cd-aaef-4890-b2f5-\
 49b74c0d4918"],
+
+Cell[TextData[{
+ "This notebook contains source code for the following article:\n",
+ StyleBox["\nTitle: ",
+  FontWeight->"Bold"],
+ "A Trade-off between Force and Flow may lead to Reduced Entropy Production \
+Rate during Faster Microbial Growth",
+ StyleBox["\nAuthors: ",
+  FontWeight->"Bold"],
+ "Maarten J. ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["Droste", 
+    RowBox[{"1", ",", "2"}]], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "8fba02a5-2085-45bf-8583-d0109391c317"],
+ ", Maaike ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["Remeijer", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "edbcc22a-9459-4664-8027-27937c4fd494"],
+ ", Robert ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["Planqu\[EAcute]", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "21482fbe-50c4-4303-b2fd-2630ab5a1f2e"],
+ ", Frank J. ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["Bruggeman", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "9281003b-f79a-4b28-a10b-4f36c63ca502"],
+ StyleBox["\nAffiliations: ",
+  FontWeight->"Bold"],
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["", "1"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "bd334df8-2d91-4c8d-a22e-3e25b84ffc9d"],
+ "Department of Mathematics, Amsterdam Center for Dynamics and Computation, \
+Vrije Universiteit Amsterdam, 1081 HV Amsterdam, the Netherlands, ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["", "2"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "80a2a5a7-38e7-4365-b007-4947052b06d8"],
+ "Systems Biology Lab, A-LIFE, AIMMS, Vrije Universiteit Amsterdam, 1081 HZ \
+Amsterdam, the Netherlands\n"
+}], "Text",
+ CellChangeTimes->{{3.9296947437186413`*^9, 3.9296951020392857`*^9}, {
+   3.9301480170576887`*^9, 3.930148041336217*^9}, {3.930217504016037*^9, 
+   3.930217657615096*^9}, {3.930217693247149*^9, 3.930217726206396*^9}, {
+   3.9433578287223663`*^9, 3.9433578377303247`*^9}, {3.9488647433446007`*^9, 
+   3.948864937179102*^9}, {3.948865021276495*^9, 3.948865021678293*^9}, 
+   3.948865127850287*^9},ExpressionUUID->"5169f085-b2f9-4439-b511-\
+a2d54f9acee7"],
 
 Cell[TextData[{
  StyleBox["Short description",
@@ -298,8 +356,7 @@ Cell[BoxData[
         RowBox[{"i", ",", "1", ",", "nvaluesposterBatMix"}], "}"}]}], "]"}]}],
      ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"EPR", " ", "for", " ", "Model", " ", "2"}], "*)"}], 
-   "\[IndentingNewLine]", 
+    RowBox[{"EPR", " ", "for", " ", "Model", " ", "2"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"entrprodvalHDMix", "=", 
      RowBox[{"Table", "[", 
@@ -321,8 +378,7 @@ Cell[BoxData[
         RowBox[{"i", ",", "1", ",", "nvaluesHDMix"}], "}"}]}], "]"}]}], ";"}],
     "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"(*", 
-    RowBox[{"EPR", " ", "for", " ", "Model", " ", "3"}], "*)"}], 
-   "\[IndentingNewLine]", 
+    RowBox[{"EPR", " ", "for", " ", "Model", " ", "3"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"entrprodvalHoek", "=", 
      RowBox[{"Table", "[", 
@@ -363,8 +419,7 @@ Cell[TextData[{
   FontColor->GrayLevel[0]],
  Cell[BoxData[
   FormBox[
-   SubscriptBox["\[Phi]", "approx"], TraditionalForm]],
-  FormatType->TraditionalForm,ExpressionUUID->
+   SubscriptBox["\[Phi]", "approx"], TraditionalForm]],ExpressionUUID->
   "fba2e2da-d4b4-4791-ad05-2cf393dfaa0e"],
  StyleBox[" assumes that mixing of strategies follows a mixing function of \
 the so-called theoretical form \[Alpha](D), which yields affine fluxes q(D). \
@@ -385,8 +440,8 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"(*", 
    RowBox[{
-   "Theoretical", " ", "mixing", " ", "function", " ", "for", " ", "Model", 
-    " ", "1"}], "*)"}], "\[IndentingNewLine]", 
+   "Theoretical", " ", "mixing", " ", "function", " ", "for", " ", "Model", " ",
+     "1"}], "*)"}], "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
     RowBox[{"MixfuncBatHoekTheory", "[", "D_", "]"}], ":=", 
@@ -437,8 +492,8 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
-    "Theoretical", " ", "mixing", " ", "function", " ", "for", " ", "Model", 
-     " ", "2"}], "*)"}], "\[IndentingNewLine]", 
+    "Theoretical", " ", "mixing", " ", "function", " ", "for", " ", "Model", " ",
+      "2"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"MixfuncHDHoekTheory", "[", "D_", "]"}], ":=", 
     TagBox[
@@ -589,8 +644,7 @@ Cell[BoxData[
          RowBox[{
           RowBox[{"{", 
            RowBox[{"0", ",", 
-            RowBox[{"\[Lambda]max", "/.", "paramSCerevovHDMix"}]}], "}"}], 
-          ",", 
+            RowBox[{"\[Lambda]max", "/.", "paramSCerevovHDMix"}]}], "}"}], ",", 
           RowBox[{"{", 
            RowBox[{
             RowBox[{"-", "5"}], ",", "299"}], "}"}]}], "}"}]}], ",", 
@@ -646,8 +700,8 @@ Cell[BoxData[
             RowBox[{"Thickness", "[", "0.007", "]"}]}], "}"}]}], "}"}]}], ",", 
        RowBox[{"FrameLabel", "\[Rule]", 
         RowBox[{"{", 
-         RowBox[{
-         "\"\<Dilution rate (h\!\(\*SuperscriptBox[\(\\\ \), \(-1\)]\))\>\"", 
+         RowBox[{"\"\<Dilution rate (h\!\(\*SuperscriptBox[\(\\\ \), \
+\(-1\)]\))\>\"", 
           ",", "\"\<sEPR (kJ \!\(\*SuperscriptBox[\(mol\), \(-1\)]\) \
 h\!\(\*SuperscriptBox[\(\\\ \), \(-1\)]\))\>\""}], "}"}]}]}], "]"}]}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
@@ -1694,8 +1748,8 @@ h\!\(\*SuperscriptBox[\(\\ \), \(-1\)]\))"], None}, {
 }, Open  ]]
 },
 WindowSize->{1057, 911},
-WindowMargins->{{Automatic, -1542}, {Automatic, -172}},
-FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (November 18, 2022)",
+WindowMargins->{{Automatic, 290}, {Automatic, 47}},
+FrontEndVersion->"14.2 for Mac OS X ARM (64-bit) (December 26, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"d66d1ef6-bccf-4b99-abd1-96bb72db24c1"
 ]
@@ -1711,27 +1765,28 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 442, 9, 160, "Title",ExpressionUUID->"59e581cd-aaef-4890-b2f5-49b74c0d4918"],
-Cell[1025, 33, 1255, 25, 133, "Text",ExpressionUUID->"6ca35cba-ad85-470e-bb97-c26862edc489"],
+Cell[580, 22, 442, 9, 157, "Title",ExpressionUUID->"59e581cd-aaef-4890-b2f5-49b74c0d4918"],
+Cell[1025, 33, 2167, 56, 164, "Text",ExpressionUUID->"5169f085-b2f9-4439-b511-a2d54f9acee7"],
+Cell[3195, 91, 1255, 25, 122, "Text",ExpressionUUID->"6ca35cba-ad85-470e-bb97-c26862edc489"],
 Cell[CellGroupData[{
-Cell[2305, 62, 224, 4, 45, "Subsubsection",ExpressionUUID->"f941c96d-661e-4793-98c8-2f9515d4b2d7"],
-Cell[2532, 68, 7002, 183, 228, "Input",ExpressionUUID->"c3cf7166-12a4-471d-94f2-aa62ee1b3a1d"]
+Cell[4475, 120, 224, 4, 43, "Subsubsection",ExpressionUUID->"f941c96d-661e-4793-98c8-2f9515d4b2d7"],
+Cell[4702, 126, 7002, 183, 222, "Input",ExpressionUUID->"c3cf7166-12a4-471d-94f2-aa62ee1b3a1d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9571, 256, 284, 4, 67, "Section",ExpressionUUID->"57146089-fa15-4de1-aa6f-2f1abee634fb"],
-Cell[9858, 262, 577, 9, 35, "Text",ExpressionUUID->"cc89b407-49d1-489d-bad4-5b1769e2e50a"],
-Cell[10438, 273, 2753, 75, 262, "Input",ExpressionUUID->"0d4900db-32d1-4c48-9c84-a1a69329da2d"]
+Cell[11741, 314, 284, 4, 66, "Section",ExpressionUUID->"57146089-fa15-4de1-aa6f-2f1abee634fb"],
+Cell[12028, 320, 577, 9, 33, "Text",ExpressionUUID->"cc89b407-49d1-489d-bad4-5b1769e2e50a"],
+Cell[12608, 331, 2745, 73, 254, "Input",ExpressionUUID->"0d4900db-32d1-4c48-9c84-a1a69329da2d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13228, 353, 341, 5, 67, "Section",ExpressionUUID->"83bad460-0ee8-464a-9234-e98fbb4ae337"],
-Cell[13572, 360, 1058, 21, 107, "Text",ExpressionUUID->"3c80fb12-b244-43aa-be2f-3a2bdfbe0ce1"],
-Cell[14633, 383, 6759, 171, 597, "Input",ExpressionUUID->"7f72b20a-8f2e-41b7-805a-ebf366196bf6"]
+Cell[15390, 409, 341, 5, 66, "Section",ExpressionUUID->"83bad460-0ee8-464a-9234-e98fbb4ae337"],
+Cell[15734, 416, 1027, 20, 100, "Text",ExpressionUUID->"3c80fb12-b244-43aa-be2f-3a2bdfbe0ce1"],
+Cell[16764, 438, 6759, 171, 579, "Input",ExpressionUUID->"7f72b20a-8f2e-41b7-805a-ebf366196bf6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[21429, 559, 372, 6, 67, "Section",ExpressionUUID->"bfc891f2-dedb-424b-9a8e-7b601a8c05e8"],
+Cell[23560, 614, 372, 6, 67, "Section",ExpressionUUID->"bfc891f2-dedb-424b-9a8e-7b601a8c05e8"],
 Cell[CellGroupData[{
-Cell[21826, 569, 5657, 137, 371, "Input",ExpressionUUID->"ef157af5-1426-4324-867e-f9a29b69e7e6"],
-Cell[27486, 708, 48186, 982, 557, "Output",ExpressionUUID->"4d0e269c-9b30-4334-a9e8-4d5b0b124645"]
+Cell[23957, 624, 5638, 136, 371, "Input",ExpressionUUID->"ef157af5-1426-4324-867e-f9a29b69e7e6"],
+Cell[29598, 762, 48186, 982, 557, "Output",ExpressionUUID->"4d0e269c-9b30-4334-a9e8-4d5b0b124645"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
